@@ -1,0 +1,22 @@
+# All files
+*               text=auto
+
+# Git
+.gitattributes  text
+.gitignore      text
+
+# Graphics
+*.png           binary
+
+# Sources
+*.c             text diff=c
+*.h             text diff=c
+
+# Global
+*README*        text
+.editorconfig   text
+
+# Visual Studio
+*.sln           text eol=crlf
+*.vcxproj       text eol=crlf
+*.vcxproj.*     text eol=crlf
